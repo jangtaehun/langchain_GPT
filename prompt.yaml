@@ -1,0 +1,3 @@
+_type: "prompt"
+template: "{model}의 특징을 설명해줘"
+input_variables: ["model"]
