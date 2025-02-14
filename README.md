@@ -20,3 +20,9 @@ python -m venv ./env
 ## challenge: 3
 > - 메모리 클래스 중 하나를 사용하는 메모리로 LCEL 체인을 구현
 > - "탑건" -> "🛩️👨‍✈️🔥". "대부" -> "👨‍👨‍👦🔫🍝"
+
+## challenge: 4
+> - Stuff Documents 체인을 사용하여 완전한 RAG 파이프라인을 구현
+> - 체인에 ConversationBufferMemory 부여
+> - 참고 문서: https://gist.github.com/serranoarevalo/5acf755c2b8d83f1707ef266b82ea223
+> - 질문: Aaronson 은 유죄인가요? | 그가 테이블에 어떤 메시지를 썼나요? | Julia 는 누구인가요?
