@@ -26,3 +26,11 @@ python -m venv ./env
 > - 체인에 ConversationBufferMemory 부여
 > - 참고 문서: https://gist.github.com/serranoarevalo/5acf755c2b8d83f1707ef266b82ea223
 > - 질문: Aaronson 은 유죄인가요? | 그가 테이블에 어떤 메시지를 썼나요? | Julia 는 누구인가요?
+
+## challenge: 5 
+> - 자체 퀴즈
+
+## challenge: 6
+> - RAG 파이프라인을 Streamlit으로 마이그레이션
+> - 파일 업로드 및 채팅 기록을 구현
+> - 사용자가 자체 OpenAI API 키를 사용하도록 허용하고, st.sidebar 내부의 st.input에서 이를 로드
