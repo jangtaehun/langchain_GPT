@@ -21,25 +21,25 @@ Here are the apps I made:
 )
 
 
-with st.chat_message("human"):
-    st.write("Hello")
+# with st.chat_message("human"):
+#     st.write("Hello")
 
-with st.chat_message("ai"):
-    st.write("how ar you")
+# with st.chat_message("ai"):
+#     st.write("how ar you")
 
-with st.status("Embedding file...", expanded=True) as status:
-    time.sleep(2)
-    st.write("Getting the file")
+# with st.status("Embedding file...", expanded=True) as status:
+#     time.sleep(2)
+#     st.write("Getting the file")
 
-    time.sleep(2)
-    st.write("Embbeding the file")
+#     time.sleep(2)
+#     st.write("Embbeding the file")
     
-    time.sleep(2)
-    st.write("Caching the file")
+#     time.sleep(2)
+#     st.write("Caching the file")
 
-    status.update(label="Error", state="error")
+#     status.update(label="Error", state="error")
 
-st.chat_input("Send a message to the ai")
+# st.chat_input("Send a message to the ai")
 
 
 
